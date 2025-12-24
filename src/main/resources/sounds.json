@@ -1,0 +1,52 @@
+{
+  "load-fuel": {
+    "sound": "minecraft:item.bucket.empty",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  "boost-success": {
+    "sound": "minecraft:block.barrel.open",
+    "volume": 1.0,
+    "pitch": 1.5
+  },
+  "boost-failure": {
+    "sound": "minecraft:block.barrel.close",
+    "volume": 1.0,
+    "pitch": 0.8
+  },
+  "suspension-failure": {
+    "sound": "minecraft:block.barrel.close",
+    "volume": 1.0,
+    "pitch": 0.8
+  },
+  "bolt-removed": {
+    "sound": "minecraft:block.barrel.open",
+    "volume": 1.0,
+    "pitch": 1.5
+  },
+  "bolt-click": {
+    "sound": "minecraft:item.bucket.empty",
+    "volume": 1.0,
+    "pitch": 0.5
+  },
+  "suspension-success": {
+    "sound": "minecraft:entity.villager.yes",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  "engine-removed": {
+    "sound": "minecraft:entity.villager.yes",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  "tire-removed": {
+    "sound": "minecraft:entity.villager.yes",
+    "volume": 1.0,
+    "pitch": 1.0
+  },
+  "tire-installed": {
+    "sound": "minecraft:entity.villager.yes",
+    "volume": 1.0,
+    "pitch": 0.5
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "low_fuel_tank",
+    "model": "small_box_wooden",
+    "type": "FUEL_TANK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Low Capacity Fuel Tank",
+      "lore": [
+        "<gray>Capacity: 10 Gallons"
+      ],
+      "customModel": 1
+    },
+    "tank-capacity": 10
+  },
+  {
+    "id": "medium_fuel_tank",
+    "model": "small_box_wooden",
+    "type": "FUEL_TANK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Medium Capacity Fuel Tank",
+      "lore": [
+        "<gray>Capacity: 15 Gallons"
+      ],
+      "customModel": 1
+    },
+    "tank-capacity": 15
+  },
+  {
+    "id": "large_fuel_tank",
+    "model": "small_box_wooden",
+    "type": "FUEL_TANK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Large Capacity Fuel Tank",
+      "lore": [
+        "<gray>Capacity: 20 Gallons"
+      ],
+      "customModel": 1
+    },
+    "tank-capacity": 20
+  }
+]

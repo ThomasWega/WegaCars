@@ -1,0 +1,17 @@
+package me.wega.cars.vehicle;
+
+public enum VehicleStat {
+    TOP_SPEED,
+    ACCELERATION,
+    ENGINE_LIFE,
+    BRAKING_FORCE,
+    WEIGHT_TOLERANCE,
+    UNSPRUNG_WEIGHT,
+    COMBINED_WEIGHT,
+    BRAKING_LIFE,
+    HANDLING,
+    STABILITY,
+    TIRE_LIFE,
+    FUEL_CAPACITY,
+    FUEL_EFFICIENCY
+}

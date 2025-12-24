@@ -42,7 +42,7 @@ public abstract class SavingDataManager<V> extends DataManager<V> {
      * Schedules the saving of the list.
      * Can look something like this:
      * <pre>{@code
-     *         taskScheduler.schedule(Tasks.timerAsync(RPCore.INSTANCE, 20 * 300, 20 * 300, saveAction));
+     *         taskScheduler.schedule(Tasks.timerAsync(WegaCars.INSTANCE, 20 * 300, 20 * 300, saveAction));
      *         }</pre>
      * <p>
      * It's important that the tasks in scheduled using the plugin's task scheduler.

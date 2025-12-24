@@ -1,0 +1,50 @@
+[
+  {
+    "id": "high_spring_rate",
+    "model": "small_box_wooden",
+    "type": "SPRING",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>High Spring Rate",
+      "lore": [
+        "<gray>Weight Tolerance: 7",
+        "<gray>Unsprung Weight: 5"
+      ],
+      "customModel": 1
+    },
+    "weight-tolerance": 7,
+    "unsprung-weight": 5
+  },
+  {
+    "id": "medium_spring_rate",
+    "model": "small_box_wooden",
+    "type": "SPRING",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Medium Spring Rate",
+      "lore": [
+        "<gray>Weight Tolerance: 7",
+        "<gray>Unsprung Weight: 5"
+      ],
+      "customModel": 1
+    },
+    "weight-tolerance": 5,
+    "unsprung-weight": 3
+  },
+  {
+    "id": "low_spring_rate",
+    "model": "small_box_wooden",
+    "type": "SPRING",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Low Spring Rate",
+      "lore": [
+        "<gray>Weight Tolerance: 3",
+        "<gray>Unsprung Weight: 1"
+      ],
+      "customModel": 1
+    },
+    "weight-tolerance": 3,
+    "unsprung-weight": 1
+  }
+]

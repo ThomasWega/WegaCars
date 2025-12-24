@@ -1,0 +1,86 @@
+[
+  {
+    "id": "oem_turbo",
+    "model": "small_box_wooden",
+    "type": "TURBO",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Turbo",
+      "lore": [
+        "<gray>Acceleration: 2",
+        "<gray>Top Speed: 3",
+        "<gray>Weight: 2",
+        "<gray>Fuel Efficiency: -1"
+      ],
+      "customModel": 1
+    },
+    "turbo-type": "TURBO",
+    "acceleration": 2,
+    "top-speed": 3,
+    "weight": 2,
+    "fuel-efficiency": -1
+  },
+  {
+    "id": "aftermarket_turbo",
+    "model": "small_box_wooden",
+    "type": "TURBO",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Turbo",
+      "lore": [
+        "<gray>Acceleration: 3",
+        "<gray>Top Speed: 2",
+        "<gray>Weight: 2",
+        "<gray>Fuel Efficiency: -2"
+      ],
+      "customModel": 1
+    },
+    "turbo-type": "TURBO",
+    "acceleration": 3,
+    "top-speed": 2,
+    "weight": 2,
+    "fuel-efficiency": -2
+  },
+  {
+    "id": "oem_super",
+    "model": "small_box_wooden",
+    "type": "TURBO",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Super",
+      "lore": [
+        "<gray>Acceleration: 2",
+        "<gray>Top Speed: 3",
+        "<gray>Weight: 2",
+        "<gray>Fuel Efficiency: -1"
+      ],
+      "customModel": 1
+    },
+    "turbo-type": "SUPER",
+    "acceleration": 2,
+    "top-speed": 3,
+    "weight": 2,
+    "fuel-efficiency": -1
+  },
+  {
+    "id": "aftermarket_super",
+    "model": "small_box_wooden",
+    "type": "TURBO",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Super",
+      "lore": [
+        "<gray>Acceleration: 3",
+        "<gray>Top Speed: 2",
+        "<gray>Weight: 2",
+        "<gray>Fuel Efficiency: -2"
+      ],
+      "customModel": 1
+    },
+    "turbo-type": "SUPER",
+    "acceleration": 3,
+    "top-speed": 2,
+    "weight": 2,
+    "fuel-efficiency": -2
+  }
+]

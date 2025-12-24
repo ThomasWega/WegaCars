@@ -1,0 +1,56 @@
+[
+  {
+    "id": "oem_sparkplug",
+    "model": "small_box_wooden",
+    "type": "SPARKPLUG",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Sparkplug",
+      "lore": [
+        "<gray>Acceleration: 1",
+        "<gray>Expected Life: 7",
+        "<gray>Fuel Efficiency: 2"
+      ],
+      "customModel": 1
+    },
+    "acceleration": 1,
+    "expected-life": 7,
+    "fuel-efficiency": 2
+  },
+  {
+    "id": "aftermarket_sparkplug",
+    "model": "small_box_wooden",
+    "type": "SPARKPLUG",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Sparkplug",
+      "lore": [
+        "<gray>Acceleration: 3",
+        "<gray>Expected Life: 4",
+        "<gray>Fuel Efficiency: 3"
+      ],
+      "customModel": 1
+    },
+    "acceleration": 3,
+    "expected-life": 4,
+    "fuel-efficiency": 3
+  },
+  {
+    "id": "aftermarket_longlife_sparkplug",
+    "model": "small_box_wooden",
+    "type": "SPARKPLUG",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Long-Life Sparkplug",
+      "lore": [
+        "<gray>Acceleration: 2",
+        "<gray>Expected Life: 6",
+        "<gray>Fuel Efficiency: 1"
+      ],
+      "customModel": 1
+    },
+    "acceleration": 2,
+    "expected-life": 6,
+    "fuel-efficiency": 1
+  }
+]

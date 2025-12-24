@@ -1,0 +1,70 @@
+[
+  {
+    "id": "oem_shocks",
+    "model": "small_box_wooden",
+    "type": "SHOCK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Shocks",
+      "lore": [
+        "<gray>Stability: 5",
+        "<gray>Unsprung Weight: 3"
+      ],
+      "customModel": 1
+    },
+    "shock-type": "SHOCK",
+    "stability": 5,
+    "unsprung-weight": 3
+  },
+  {
+    "id": "aftermarket_shocks",
+    "model": "small_box_wooden",
+    "type": "SHOCK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Shocks",
+      "lore": [
+        "<gray>Stability: 7",
+        "<gray>Unsprung Weight: 4"
+      ],
+      "customModel": 1
+    },
+    "shock-type": "SHOCK",
+    "stability": 7,
+    "unsprung-weight": 4
+  },
+  {
+    "id": "oem_struts",
+    "model": "small_box_wooden",
+    "type": "SHOCK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Struts",
+      "lore": [
+        "<gray>Stability: 5",
+        "<gray>Unsprung Weight: 3"
+      ],
+      "customModel": 1
+    },
+    "shock-type": "STRUT",
+    "stability": 5,
+    "unsprung-weight": 3
+  },
+  {
+    "id": "aftermarket_struts",
+    "model": "small_box_wooden",
+    "type": "SHOCK",
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Struts",
+      "lore": [
+        "<gray>Stability: 7",
+        "<gray>Unsprung Weight: 4"
+      ],
+      "customModel": 1
+    },
+    "shock-type": "STRUT",
+    "stability": 7,
+    "unsprung-weight": 4
+  }
+]

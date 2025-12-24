@@ -2,3 +2,5 @@ name: WegaCars
 version: '1.0-SNAPSHOT'
 main: me.wega.cars.WegaCars
 api-version: '1.21'
+depend:
+  - WorldGuard

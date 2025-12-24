@@ -1,0 +1,59 @@
+[
+  {
+    "id": "racing_brakes",
+    "model": "small_box_wooden",
+    "type": "BRAKES",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Racing Brakes",
+      "lore": [
+        "<gray>Braking Force: 8",
+        "<gray>Unsprung Weight: 7",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "braking-force": 8,
+    "unsprung-weight": 7
+  },
+  {
+    "id": "oem_brakes",
+    "model": "small_box_wooden",
+    "type": "BRAKES",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>OEM Brakes",
+      "lore": [
+        "<gray>Braking Force: 6",
+        "<gray>Unsprung Weight: 5",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "braking-force": 6,
+    "unsprung-weight": 5
+  },
+  {
+    "id": "aftermarket_brakes",
+    "model": "small_box_wooden",
+    "type": "BRAKES",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Aftermarket Brakes",
+      "lore": [
+        "<gray>Braking Force: 4",
+        "<gray>Unsprung Weight: 2",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "braking-force": 4,
+    "unsprung-weight": 2
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "general_tires",
+    "model": "wheel1",
+    "type": "WHEELS",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>General Use Tires",
+      "lore": [
+        "<gray>Off Road, Rainy, Snowy Penalties:",
+        "<gray>Top Speed: -2",
+        "<gray>Handling: -2",
+        "<gray>Stability: -2",
+        "<gray>Tire Life: -2"
+      ],
+      "customModel": 1
+    },
+    "handling": 5,
+    "jackstand-model": "wheel1",
+    "environment-stats": {
+      "OFF_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "RAIN_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "RAIN_OFF_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "SNOWY": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      }
+    }
+  },
+  {
+    "id": "offroad_tires",
+    "model": "wheel1",
+    "type": "WHEELS",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Off Road Tires",
+      "lore": [
+        "<gray>General Road, Rainy, Snowy Penalties:",
+        "<gray>Top Speed: -2",
+        "<gray>Handling: -2",
+        "<gray>Stability: -2",
+        "<gray>Tire Life: -2"
+      ],
+      "customModel": 1
+    },
+    "handling": 5,
+    "jackstand-model": "wheel1",
+    "environment-stats": {
+      "ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "RAIN_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "RAIN_OFF_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      },
+      "SNOWY": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": -2
+      }
+    }
+  },
+  {
+    "id": "rain_tires",
+    "model": "wheel1",
+    "type": "WHEELS",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Rain Tires",
+      "lore": [
+        "<gray>Snowy Penalties:",
+        "<gray>Top Speed: -2",
+        "<gray>Handling: -2",
+        "<gray>Stability: -2",
+        "<gray>Tire Life: -2"
+      ],
+      "customModel": 1
+    },
+    "handling": 5,
+    "jackstand-model": "wheel1",
+    "environment-stats": {
+      "SNOWY": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": 1
+      }
+    }
+  },
+  {
+    "id": "snowy_tires",
+    "model": "wheel1",
+    "type": "WHEELS",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Snowy Tires",
+      "lore": [
+        "<gray>Rainy Penalties:",
+        "<gray>Top Speed: -2",
+        "<gray>Handling: -2",
+        "<gray>Stability: -2",
+        "<gray>Tire Life: -2"
+      ],
+      "customModel": 1
+    },
+    "handling": 5,
+    "jackstand-model": "wheel1",
+    "environment-stats": {
+      "RAIN_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": 1
+      },
+      "RAIN_OFF_ROAD": {
+        "TOP_SPEED": -2,
+        "HANDLING": -2,
+        "STABILITY": -2,
+        "TIRE_LIFE": 1
+      }
+    }
+  },
+  {
+    "id": "all_season_tires",
+    "model": "wheel1",
+    "type": "WHEELS",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>All Season Tires",
+      "lore": [
+        "<gray>Rainy and Snowy Penalties:",
+        "<gray>Top Speed: -1",
+        "<gray>Handling: -1",
+        "<gray>Stability: -1"
+      ],
+      "customModel": 1
+    },
+    "handling": 5,
+    "jackstand-model": "wheel1",
+    "environment-stats": {
+      "RAIN_ROAD": {
+        "TOP_SPEED": -1,
+        "HANDLING": -1,
+        "STABILITY": -1
+      },
+      "RAIN_OFF_ROAD": {
+        "TOP_SPEED": -1,
+        "HANDLING": -1,
+        "STABILITY": -1
+      },
+      "SNOWY": {
+        "TOP_SPEED": -1,
+        "HANDLING": -1,
+        "STABILITY": -1
+      }
+    }
+  }
+]

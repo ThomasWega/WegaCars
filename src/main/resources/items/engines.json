@@ -1,0 +1,94 @@
+[
+  {
+    "id": "v-engine",
+    "model": "small_box_wooden",
+    "type": "ENGINE",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>V-Engine",
+      "lore": [
+        "<gray>Top Speed: 8",
+        "<gray>Acceleration: 7",
+        "<gray>Weight: 9",
+        "<gray>Engine Life: 3",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "top-speed": 8,
+    "acceleration": 7,
+    "weight": 9,
+    "engine-life": 3
+  },
+  {
+    "id": "in-line-engine",
+    "model": "small_box_wooden",
+    "type": "ENGINE",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>In-Line Engine",
+      "lore": [
+        "<gray>Top Speed: 5",
+        "<gray>Acceleration: 3",
+        "<gray>Weight: 4",
+        "<gray>Engine Life: 6",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "top-speed": 5,
+    "acceleration": 3,
+    "weight": 4,
+    "engine-life": 6
+  },
+  {
+    "id": "boxer-engine",
+    "model": "small_box_wooden",
+    "type": "ENGINE",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>Boxer Engine",
+      "lore": [
+        "<gray>Top Speed: 3",
+        "<gray>Acceleration: 5",
+        "<gray>Weight: 2",
+        "<gray>Engine Life: 8",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "top-speed": 3,
+    "acceleration": 5,
+    "weight": 2,
+    "engine-life": 8
+  },
+  {
+    "id": "w-rotary-engine",
+    "model": "small_box_wooden",
+    "type": "ENGINE",
+    "max-durability": 50,
+    "item": {
+      "material": "REDSTONE",
+      "display": "<aqua><bold>W-Rotary Engine",
+      "lore": [
+        "<gray>Top Speed: 4",
+        "<gray>Acceleration: 5",
+        "<gray>Weight: 2",
+        "<gray>Engine Life: 1",
+        "",
+        "<gray>Durability: <durability>/<max_durability>"
+      ],
+      "customModel": 1
+    },
+    "top-speed": 4,
+    "acceleration": 5,
+    "weight": 2,
+    "engine-life": 1
+  }
+]
