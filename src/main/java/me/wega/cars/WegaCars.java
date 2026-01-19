@@ -5,6 +5,7 @@ import dev.jorel.commandapi.CommandAPI;
 import dev.jorel.commandapi.CommandAPIBukkitConfig;
 import lombok.Getter;
 import me.wega.cars.annotation.reflection.AnnotationsReflection;
+import me.wega.cars.cmd.AdminVehiclesCommand;
 import me.wega.cars.gson.GsonHandler;
 import me.wega.cars.item.lift.VehicleLiftManager;
 import me.wega.cars.item.lift.tasks.VehicleLiftTask;
@@ -13,6 +14,7 @@ import me.wega.cars.toolkit.actionbar.ActionBarManager;
 import me.wega.cars.toolkit.config.sound.ConfigSounds;
 import me.wega.cars.toolkit.data.DataSavingManager;
 import me.wega.cars.toolkit.task.TaskScheduler;
+import me.wega.cars.toolkit.utils.InitializeStatic;
 import me.wega.cars.utils.VehicleEntityLoadHandler;
 import me.wega.cars.vehicle.VehicleManager;
 import me.wega.cars.vehicle.VehiclePlayerMapManager;
@@ -51,6 +53,10 @@ public final class WegaCars extends JavaPlugin {
         CommandAPI.onEnable();
 
         this.gson = GsonHandler.withAnnotations().create();
+
+        InitializeStatic.initializeAll(VehiclesMessages.class);
+        InitializeStatic.initializeAll(VehiclesConfig.class);
+
         this.initializeManagers();
 
         this.loadData();
@@ -58,6 +64,7 @@ public final class WegaCars extends JavaPlugin {
         this.initializeSpawnAreaEntities();
 
         AnnotationsReflection.registerListeners(this, this.getClass().getPackageName());
+        new AdminVehiclesCommand().register();
     }
 
     @Override
@@ -67,7 +74,8 @@ public final class WegaCars extends JavaPlugin {
         taskScheduler.cancelAllTasks();
     }
     public boolean loadData() {
-        return this.vehiclePartManager.loadAll() &&
+        return this.sounds.loadAction(true) &&
+                this.vehiclePartManager.loadAll() &&
                 this.vehicleTypeManager.loadAction(true) &&
                 this.vehicleManager.loadAction(false) &&
                 this.vehicleLiftManager.loadAction(false);

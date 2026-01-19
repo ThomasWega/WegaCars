@@ -1,0 +1,219 @@
+stat-multipliers:
+  TOP_SPEED: 7.5
+  ACCELERATION: 0.1
+  ENGINE_LIFE: 2.5
+  BRAKING_FORCE: 5.0
+  UNSPRUNG_WEIGHT: 1.0
+  COMBINED_WEIGHT: 1.0
+  BRAKING_LIFE: 1.0
+  HANDLING: 1.0
+  STABILITY: 1.0
+  FUEL_CAPACITY: 10.0
+  FUEL_EFFICIENCY: 1.0
+
+velocity-vector-multiplier: 0.005
+smoothing-factor: 0.5
+max-durability-roll: 100
+mismatched-tires-penalty: 3
+stability-loss-mismatched-shocks: 4
+
+environments:
+  ROAD:
+    rain: false
+    materials:
+      - STONE
+  OFF_ROAD:
+    rain: false
+    materials:
+      - GRASS_BLOCK
+  RAIN_ROAD:
+    rain: true
+    materials:
+      - STONE
+  RAIN_OFF_ROAD:
+    rain: true
+    materials:
+      - GRASS_BLOCK
+  SNOWY:
+    rain: false
+    materials:
+      - SNOW_BLOCK
+
+
+
+manual-bar:
+  subtitle: "<white>Press <slot> at the correct time!"
+  length: 10
+  symbol: "-"
+  correct-color: "<green>"
+  incorrect-color: "<red>"
+  current-color: "<yellow>"
+
+manual-transmission-speed-boost-time: 120 # in ticks
+max-lift-distance: 3
+
+fuel-bar:
+  format: "<bar> <gray><italic>[<speed>/<max_speed>]"
+  length: 50
+  symbol: "|"
+  color: "<red>"
+  available-color: "<green>"
+
+gui-items:
+  tune-up:
+    material: PAPER
+    display: "<green>Tune-up"
+  alignment-combination:
+    material: PAPER
+    display: "<green>Current Combination: <alignment>"
+  alignment-combination-option:
+    material: PAPER
+    display: "<green><alignment>"
+  load-fuel:
+    material: PAPER
+    display: "<green>Load Fuel"
+  create-suspension:
+    material: EMERALD
+    display: "<green>Create Suspension"
+  empty:
+    ENGINE:
+      material: BARRIER
+      display: "<red>No Engine"
+    BRAKES:
+      material: BARRIER
+      display: "<red>No Brakes"
+    SUSPENSION:
+      material: BARRIER
+      display: "<red>No Suspension"
+    SPARKPLUG:
+      material: BARRIER
+      display: "<red>No Sparkplug"
+    TURBO:
+      material: BARRIER
+      display: "<red>No Turbo"
+    WHEELS:
+      material: BARRIER
+      display: "<red>No Wheels"
+    FUEL_TANK:
+      material: BARRIER
+      display: "<red>No Fuel Tank"
+    SPRING:
+      material: BARRIER
+      display: "<red>No Spring"
+    SHOCK:
+      material: BARRIER
+      display: "<red>No Strut/Shock"
+
+fuel-tick-timer: 100
+durability-tick-timer: 900
+manual-tick-timer: 900
+engine-set-time: 900
+
+minigame:
+  set-engine:
+    inventory-title: "Connect Engine"
+    info-item:
+      material: PAPER
+      display: "<blue>How to Solve"
+      lore:
+        - "<gray>Align the cables by color."
+        - "<gray>Use the bottom row as a guide."
+        - "<gray>Candle should be on top."
+      customModel: 1
+    rotate-column-1-item:
+      material: PAPER
+      display: "<blue>Rotate Column 1 Down"
+      customModel: 1
+    rotate-row-1-item:
+      material: PAPER
+      display: "<blue>Rotate Row 1 Right"
+      customModel: 1
+    rotate-column-2-item:
+      material: PAPER
+      display: "<blue>Rotate Column 2 Down"
+      customModel: 1
+    rotate-column-3-item:
+      material: PAPER
+      display: "<blue>Rotate Column 3 Down"
+      customModel: 1
+    connect-item:
+      material: PAPER
+      display: "<green>Connect!"
+      customModel: 1
+  tuneup:
+    up-item:
+      material: PAPER
+      display: "<blue>Up"
+      customModel: 1
+    down-item:
+      material: PAPER
+      display: "<blue>Down"
+      customModel: 1
+    left-item:
+      material: PAPER
+      display: "<blue>Left"
+      customModel: 1
+    right-item:
+      material: PAPER
+      display: "<blue>Right"
+      customModel: 1
+    max-turns: 50
+    max-repair-factor: 0.1
+    min-drive-time: 300
+
+items:
+  impact-gun:
+    material: PAPER
+    display: "<green>Impact Gun"
+    max-charge: 50
+    charge-per-cycle: 5
+  wrench:
+    material: PAPER
+    display: "<green>Wrench"
+  jack-lift:
+    material: PAPER
+    display: "<green>Jack Lift"
+  jack-stand:
+    material: PAPER
+    display: "<green>Jack Stand"
+  bolt:
+    material: PAPER
+    display: "<green>Bolt"
+  ratchet:
+    material: PAPER
+    display: "<green>Ratchet (<mode>)"
+  socket:
+    material: PAPER
+    display: "<green>Socket"
+  sparkplug-socket:
+    material: PAPER
+    display: "<green>Sparkplug Socket"
+  impact-socket:
+    material: PAPER
+    display: "<green>Impact Socket"
+  air-gun:
+    material: PAPER
+    display: "<green>Air Gun"
+  suspension:
+    material: REDSTONE
+    display: "<green>Suspension System"
+    lore:
+      - "<gray>Spring: <spring>"
+      - "<gray>Shock/Strut: <shock>"
+  spring-compressor:
+    material: CRAFTING_TABLE
+    display: "<green>Spring Compressor"
+
+inventory-titles:
+  engine-removal-minigame: "Remove all bolts!"
+  engine-set-minigame: "Connect the cables!"
+  set-alignment-minigame: "Remember and match the items!"
+  first-suspension-replacement-minigame: "Remove all bolts, except center!"
+  second-suspension-replacement-minigame: "Now remove all three bolts!"
+  tuneup-minigame: "Reach 64 items!"
+  alignment-selection: "Select an alignment!"
+  engine-parts: "Engine Parts"
+  sparkplug-parts: "Sparkplug Parts"
+  tire-parts: "Tires and Brakes"
+  trunk-parts: "Trunk"
+  spring-compressor: "Spring Compressor"

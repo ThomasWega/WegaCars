@@ -1,4 +1,4 @@
-package me.wega.cars.vehicle.holder.adapter;
+package me.wega.cars.vehicle.holder.adapters;
 
 import com.google.gson.*;
 import me.wega.cars.annotation.JsonAdapter;

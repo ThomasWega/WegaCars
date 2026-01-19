@@ -1,8 +1,8 @@
 package me.wega.cars.toolkit.config.property;
 
-import me.wega.cars.toolkit.config.ConfigPropertyClass;
 import lombok.Setter;
 import lombok.SneakyThrows;
+import me.wega.cars.toolkit.config.ConfigPropertyClass;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.jetbrains.annotations.NotNull;
@@ -54,7 +54,7 @@ public class ConfigProperty<T> {
      */
     public T get() {
         if (value == null)
-         value = valueSupplier.apply(propertyClass.getConfig());
+            value = valueSupplier.apply(propertyClass.getConfig());
         return value;
     }
 
@@ -69,6 +69,7 @@ public class ConfigProperty<T> {
     public void setDefault() {
         final YamlConfiguration config = propertyClass.getConfig();
         if (!config.contains(path)) {
+            // Load default config from resources
             final String relativePath = propertyClass.getPlugin().getDataFolder().toPath().relativize(propertyClass.getFile().toPath()).toString();
             final InputStream input = propertyClass.getPlugin().getResource(relativePath);
             if (input == null) return;
@@ -79,8 +80,13 @@ public class ConfigProperty<T> {
                 config.set(path, defaultValue);
                 propertyClass.getPlugin().getLogger().warning("Auto-populated missing config value: " + path + " with default value: " + defaultValue);
                 config.save(propertyClass.getFile());
+            } else {
+                propertyClass.getPlugin().getLogger().severe("No default value found for missing config path: " + path);
             }
             input.close();
         }
+
+        // preload the value
+        this.get();
     }
 }

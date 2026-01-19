@@ -1,7 +1,7 @@
 package me.wega.cars.toolkit.config;
 
-import me.wega.cars.toolkit.config.property.ConfigProperty;
 import lombok.Getter;
+import me.wega.cars.toolkit.config.property.ConfigProperty;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
