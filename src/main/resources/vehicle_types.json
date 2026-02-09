@@ -6,7 +6,7 @@
     "disassembled-model": "example_car",
     "jack-lift-model": "example_car",
     "transmission_type": "AUTOMATIC",
-    "turbo-type": "SUPER",
+    "turbo-type": "TURBO",
     "shock-type": "SHOCK",
     "driver_offset": {
       "x": 0,
