@@ -5,10 +5,10 @@
     "type": "SHOCK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Shocks",
+      "display": "<aqua><bold>OEM tlumiče",
       "lore": [
-        "<gray>Stability: 5",
-        "<gray>Unsprung Weight: 3"
+        "<gray>Stabilita: 5",
+        "<gray>Nespružená hmotnost: 3"
       ],
       "customModel": 1
     },
@@ -22,10 +22,10 @@
     "type": "SHOCK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Shocks",
+      "display": "<aqua><bold>Aftermarket tlumiče",
       "lore": [
-        "<gray>Stability: 7",
-        "<gray>Unsprung Weight: 4"
+        "<gray>Stabilita: 7",
+        "<gray>Nespružená hmotnost: 4"
       ],
       "customModel": 1
     },
@@ -39,10 +39,10 @@
     "type": "SHOCK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Struts",
+      "display": "<aqua><bold>OEM vzpěry",
       "lore": [
-        "<gray>Stability: 5",
-        "<gray>Unsprung Weight: 3"
+        "<gray>Stabilita: 5",
+        "<gray>Nespružená hmotnost: 3"
       ],
       "customModel": 1
     },
@@ -56,10 +56,10 @@
     "type": "SHOCK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Struts",
+      "display": "<aqua><bold>Aftermarket vzpěry",
       "lore": [
-        "<gray>Stability: 7",
-        "<gray>Unsprung Weight: 4"
+        "<gray>Stabilita: 7",
+        "<gray>Nespružená hmotnost: 4"
       ],
       "customModel": 1
     },

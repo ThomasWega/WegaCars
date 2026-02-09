@@ -6,12 +6,12 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Racing Brakes",
+      "display": "<aqua><bold>Závodní brzdy",
       "lore": [
-        "<gray>Braking Force: 8",
-        "<gray>Unsprung Weight: 7",
+        "<gray>Brzdná síla: 8",
+        "<gray>Nespružená hmotnost: 7",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },
@@ -25,12 +25,12 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Brakes",
+      "display": "<aqua><bold>OEM brzdy",
       "lore": [
-        "<gray>Braking Force: 6",
-        "<gray>Unsprung Weight: 5",
+        "<gray>Brzdná síla: 6",
+        "<gray>Nespružená hmotnost: 5",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },
@@ -44,12 +44,12 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Brakes",
+      "display": "<aqua><bold>Aftermarket brzdy",
       "lore": [
-        "<gray>Braking Force: 4",
-        "<gray>Unsprung Weight: 2",
+        "<gray>Brzdná síla: 4",
+        "<gray>Nespružená hmotnost: 2",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },

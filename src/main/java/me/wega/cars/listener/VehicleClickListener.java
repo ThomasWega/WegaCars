@@ -121,7 +121,7 @@ public class VehicleClickListener implements Listener {
                 }
 
                 if (ratchet.getRatchetMode() == VehicleRatchet.RatchetMode.NORMAL) {
-                    if (!this.removeItem(player, VehicleItemType.SOCKET)) {
+                    if (!this.hasItem(player, VehicleItemType.SOCKET)) {
                         player.sendMessage(ColorUtils.color(VehiclesMessages.NEEDS_SOCKET.get()));
                         return;
                     }
@@ -192,36 +192,17 @@ public class VehicleClickListener implements Listener {
             return;
         }
 
-        // FIXME finish
-//        if (itemStack.getType() != Material.AIR && FuelItem.isFuel(itemStack)) {
-//            final int fuel = FuelItem.fromItem(itemStack).getFuel();
-//            final int remainingFuel = vehicle.loadFuel(fuel);
-//
-//            itemStack.setAmount(itemStack.getAmount() - 1);
-//            if (remainingFuel != 0) {
-//                final int maxValue = RPGasStationConfig.MAX_FUEL_PER_ITEM.get();
-//                final int fuelTimes = remainingFuel / maxValue;
-//                if (fuelTimes != 0) {
-//                    for (int i = 0; i < fuelTimes; i++) {
-//                        player.getInventory().addItem(FuelItem.createFuel(maxValue));
-//                    }
-//                }
-//
-//                final int partialFuel = remainingFuel % maxValue;
-//                if (partialFuel != 0) {
-//                    final ItemStack partialItem = FuelItem.createFuel(partialFuel);
-//                    player.getInventory().addItem(partialItem);
-//                }
-//            }
-//
-//            WegaCars.INSTANCE.getSounds().get("load-fuel").play(player);
-//            player.sendMessage(ColorUtils.color(
-//                    VehiclesMessages.LOADED_FUEL.get(),
-//                    Placeholder.parsed("fuel", fuel - remainingFuel + "")
-//            ));
-//
-//            return;
-//        }
+        final VehicleItemType itemType = VehicleItemType.getType(itemStack.getItemMeta());
+        if (itemType == VehicleItemType.FUEL_CAN) {
+            vehicle.setFuelRemaining(vehicle.getMaxFuel());
+            if (itemStack.getAmount() == 1)
+                player.getInventory().setItemInMainHand(null);
+            else
+                itemStack.setAmount(itemStack.getAmount() - 1);
+
+            player.sendMessage(ColorUtils.color(VehiclesMessages.REFUELED.get()));
+            return;
+        }
 
         if (vehicle.isDisassembled() || !vehicle.isFullyAssembled()) {
             player.sendMessage(ColorUtils.color(VehiclesMessages.CANNOT_DRIVE_DISASSEMBLED.get()));
@@ -243,7 +224,7 @@ public class VehicleClickListener implements Listener {
         }
 
         if (ratchet.getRatchetMode() == VehicleRatchet.RatchetMode.SPARKPLUG) {
-            if (!this.removeItem(player, VehicleItemType.SPARKPLUG_SOCKET)) {
+            if (!this.hasItem(player, VehicleItemType.SPARKPLUG_SOCKET)) {
                 player.sendMessage(ColorUtils.color(VehiclesMessages.NEEDS_SOCKET.get()));
                 return;
             }
@@ -252,7 +233,7 @@ public class VehicleClickListener implements Listener {
             return;
         }
 
-        if (!this.removeItem(player, VehicleItemType.SOCKET)) {
+        if (!this.hasItem(player, VehicleItemType.SOCKET)) {
             player.sendMessage(ColorUtils.color(VehiclesMessages.NEEDS_SOCKET.get()));
             return;
         }
@@ -287,7 +268,7 @@ public class VehicleClickListener implements Listener {
                 return;
             }
 
-            if (!this.removeItem(player, VehicleItemType.IMPACT_SOCKET)) {
+            if (!this.hasItem(player, VehicleItemType.IMPACT_SOCKET)) {
                 player.sendMessage(ColorUtils.color(VehiclesMessages.NEEDS_IMPACT_SOCKET.get()));
                 return;
             }
@@ -299,14 +280,13 @@ public class VehicleClickListener implements Listener {
 
         WegaCars.INSTANCE.getSounds().get("tire-removed").play(player);
     }
-
-    private boolean removeItem(Player player, VehicleItemType type) {
+    
+    private boolean hasItem(Player player, VehicleItemType type) {
         for (ItemStack itemStack : player.getInventory().getContents()) {
             if (itemStack == null || itemStack.getType() == Material.AIR) continue;
             final VehicleItemType itemType = VehicleItemType.getType(itemStack.getItemMeta());
             if (itemType != type) continue;
 
-            itemStack.setAmount(itemStack.getAmount() - 1);
             return true;
         }
 

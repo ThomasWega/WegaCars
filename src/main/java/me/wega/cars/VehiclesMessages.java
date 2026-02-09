@@ -32,4 +32,5 @@ public class VehiclesMessages extends ConfigPropertyClass {
     public static final ConfigProperty<String> SET_JACK_LIFT_FIRST = new ConfigProperty<>("set-jack-lift-first");
     public static final ConfigProperty<String> CANNOT_USE_IN_JACKLIFT = new ConfigProperty<>("cannot-use-in-jacklift");
     public static final ConfigProperty<String> PLEASE_STOP_VEHICLE = new ConfigProperty<>("please-stop-vehicle");
+    public static final ConfigProperty<String> REFUELED = new ConfigProperty<>("refueled");
 }

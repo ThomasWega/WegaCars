@@ -5,11 +5,11 @@
     "type": "SPARKPLUG",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Sparkplug",
+      "display": "<aqua><bold>OEM svíčka",
       "lore": [
-        "<gray>Acceleration: 1",
-        "<gray>Expected Life: 7",
-        "<gray>Fuel Efficiency: 2"
+        "<gray>Zrychlení: 1",
+        "<gray>Očekávaná životnost: 7",
+        "<gray>Spotřeba paliva: 2"
       ],
       "customModel": 1
     },
@@ -23,11 +23,11 @@
     "type": "SPARKPLUG",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Sparkplug",
+      "display": "<aqua><bold>Aftermarket svíčka",
       "lore": [
-        "<gray>Acceleration: 3",
-        "<gray>Expected Life: 4",
-        "<gray>Fuel Efficiency: 3"
+        "<gray>Zrychlení: 3",
+        "<gray>Očekávaná životnost: 4",
+        "<gray>Spotřeba paliva: 3"
       ],
       "customModel": 1
     },
@@ -41,11 +41,11 @@
     "type": "SPARKPLUG",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Long-Life Sparkplug",
+      "display": "<aqua><bold>Aftermarket dlouhodobá svíčka",
       "lore": [
-        "<gray>Acceleration: 2",
-        "<gray>Expected Life: 6",
-        "<gray>Fuel Efficiency: 1"
+        "<gray>Zrychlení: 2",
+        "<gray>Očekávaná životnost: 6",
+        "<gray>Spotřeba paliva: 1"
       ],
       "customModel": 1
     },

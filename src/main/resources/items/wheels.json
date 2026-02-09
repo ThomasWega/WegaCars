@@ -6,13 +6,13 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>General Use Tires",
+      "display": "<aqua><bold>Komfortní pneumatiky",
       "lore": [
-        "<gray>Off Road, Rainy, Snowy Penalties:",
-        "<gray>Top Speed: -2",
-        "<gray>Handling: -2",
-        "<gray>Stability: -2",
-        "<gray>Tire Life: -2"
+        "<gray>Tresty pro terén, deštivé a zasněžené podmínky:",
+        "<gray>Maximální rychlost: -2",
+        "<gray>Ovládání: -2",
+        "<gray>Stabilita: -2",
+        "<gray>Životnost pneumatik: -2"
       ],
       "customModel": 1
     },
@@ -52,13 +52,13 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Off Road Tires",
+      "display": "<aqua><bold>Terénní pneumatiky",
       "lore": [
-        "<gray>General Road, Rainy, Snowy Penalties:",
-        "<gray>Top Speed: -2",
-        "<gray>Handling: -2",
-        "<gray>Stability: -2",
-        "<gray>Tire Life: -2"
+        "<gray>Tresty pro suchý a mokrý asfalt a zasněžené podmínky:",
+        "<gray>Maximální rychlost: -2",
+        "<gray>Ovládání: -2",
+        "<gray>Stabilita: -2",
+        "<gray>Životnost pneumatik: -2"
       ],
       "customModel": 1
     },
@@ -98,13 +98,13 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Rain Tires",
+      "display": "<aqua><bold>Dešťové pneumatiky",
       "lore": [
-        "<gray>Snowy Penalties:",
-        "<gray>Top Speed: -2",
-        "<gray>Handling: -2",
-        "<gray>Stability: -2",
-        "<gray>Tire Life: -2"
+        "<gray>Tresty pro zasněžené podmínky:",
+        "<gray>Maximální rychlost: -2",
+        "<gray>Ovládání: -2",
+        "<gray>Stabilita: -2",
+        "<gray>Životnost pneumatik: -2"
       ],
       "customModel": 1
     },
@@ -115,7 +115,7 @@
         "TOP_SPEED": -2,
         "HANDLING": -2,
         "STABILITY": -2,
-        "TIRE_LIFE": 1
+        "TIRE_LIFE": -2
       }
     }
   },
@@ -126,13 +126,13 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Snowy Tires",
+      "display": "<aqua><bold>Zimní pneumatiky",
       "lore": [
-        "<gray>Rainy Penalties:",
-        "<gray>Top Speed: -2",
-        "<gray>Handling: -2",
-        "<gray>Stability: -2",
-        "<gray>Tire Life: -2"
+        "<gray>Tresty pro dešťové podmínky:",
+        "<gray>Maximální rychlost: -2",
+        "<gray>Ovládání: -2",
+        "<gray>Stabilita: -2",
+        "<gray>Životnost pneumatik: -2"
       ],
       "customModel": 1
     },
@@ -143,13 +143,13 @@
         "TOP_SPEED": -2,
         "HANDLING": -2,
         "STABILITY": -2,
-        "TIRE_LIFE": 1
+        "TIRE_LIFE": -2
       },
       "RAIN_OFF_ROAD": {
         "TOP_SPEED": -2,
         "HANDLING": -2,
         "STABILITY": -2,
-        "TIRE_LIFE": 1
+        "TIRE_LIFE": -2
       }
     }
   },
@@ -160,12 +160,12 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>All Season Tires",
+      "display": "<aqua><bold>Všesezónní pneumatiky",
       "lore": [
-        "<gray>Rainy and Snowy Penalties:",
-        "<gray>Top Speed: -1",
-        "<gray>Handling: -1",
-        "<gray>Stability: -1"
+        "<gray>Tresty pro dešťové a zasněžené podmínky:",
+        "<gray>Maximální rychlost: -1",
+        "<gray>Ovládání: -1",
+        "<gray>Stabilita: -1"
       ],
       "customModel": 1
     },

@@ -6,14 +6,14 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>V-Engine",
+      "display": "<aqua><bold>V-motor",
       "lore": [
-        "<gray>Top Speed: 8",
-        "<gray>Acceleration: 7",
-        "<gray>Weight: 9",
-        "<gray>Engine Life: 3",
+        "<gray>Maximální rychlost: 8",
+        "<gray>Zrychlení: 7",
+        "<gray>Hmotnost: 9",
+        "<gray>Životnost motoru: 3",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },
@@ -29,14 +29,14 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>In-Line Engine",
+      "display": "<aqua><bold>Řadový motor",
       "lore": [
-        "<gray>Top Speed: 5",
-        "<gray>Acceleration: 3",
-        "<gray>Weight: 4",
-        "<gray>Engine Life: 6",
+        "<gray>Maximální rychlost: 5",
+        "<gray>Zrychlení: 3",
+        "<gray>Hmotnost: 4",
+        "<gray>Životnost motoru: 6",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },
@@ -52,14 +52,14 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Boxer Engine",
+      "display": "<aqua><bold>Boxer motor",
       "lore": [
-        "<gray>Top Speed: 3",
-        "<gray>Acceleration: 5",
-        "<gray>Weight: 2",
-        "<gray>Engine Life: 8",
+        "<gray>Maximální rychlost: 3",
+        "<gray>Zrychlení: 5",
+        "<gray>Hmotnost: 2",
+        "<gray>Životnost motoru: 8",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },
@@ -75,14 +75,14 @@
     "max-durability": 50,
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>W-Rotary Engine",
+      "display": "<aqua><bold>W rotační motor",
       "lore": [
-        "<gray>Top Speed: 4",
-        "<gray>Acceleration: 5",
-        "<gray>Weight: 2",
-        "<gray>Engine Life: 1",
+        "<gray>Maximální rychlost: 4",
+        "<gray>Zrychlení: 5",
+        "<gray>Hmotnost: 2",
+        "<gray>Životnost motoru: 1",
         "",
-        "<gray>Durability: <durability>/<max_durability>"
+        "<gray>Výdrž: <durability>/<max_durability>"
       ],
       "customModel": 1
     },

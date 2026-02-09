@@ -20,7 +20,8 @@ public enum VehicleItemType {
     SPARKPLUG_SOCKET(VehiclesConfig.SPARKPLUG_SOCKET.get().builder()),
     IMPACT_SOCKET(VehiclesConfig.IMPACT_SOCKET.get().builder()),
     AIR_GUN(VehiclesConfig.AIR_GUN.get().builder()),
-    WRENCH(VehiclesConfig.WRENCH.get().builder());
+    WRENCH(VehiclesConfig.WRENCH.get().builder()),
+    FUEL_CAN(VehiclesConfig.FUEL_CAN.get().builder());
 
     private final @NotNull ItemStack itemStack;
 

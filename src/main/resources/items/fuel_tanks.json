@@ -5,9 +5,9 @@
     "type": "FUEL_TANK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Low Capacity Fuel Tank",
+      "display": "<aqua><bold>Palivová nádrž s malou kapacitou",
       "lore": [
-        "<gray>Capacity: 10 Gallons"
+        "<gray>Kapacita: 10 galonů"
       ],
       "customModel": 1
     },
@@ -19,9 +19,9 @@
     "type": "FUEL_TANK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Medium Capacity Fuel Tank",
+      "display": "<aqua><bold>Palivová nádrž se střední kapacitou",
       "lore": [
-        "<gray>Capacity: 15 Gallons"
+        "<gray>Kapacita: 15 galonů"
       ],
       "customModel": 1
     },
@@ -33,9 +33,9 @@
     "type": "FUEL_TANK",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Large Capacity Fuel Tank",
+      "display": "<aqua><bold>Palivová nádrž s velkou kapacitou",
       "lore": [
-        "<gray>Capacity: 20 Gallons"
+        "<gray>Kapacita: 20 galonů"
       ],
       "customModel": 1
     },

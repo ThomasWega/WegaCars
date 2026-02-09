@@ -39,17 +39,15 @@ environments:
     materials:
       - SNOW_BLOCK
 
-
-
 manual-bar:
-  subtitle: "<white>Press <slot> at the correct time!"
+  subtitle: "<white>Stiskni <slot> ve správný okamžik!"
   length: 10
   symbol: "-"
   correct-color: "<green>"
   incorrect-color: "<red>"
   current-color: "<yellow>"
 
-manual-transmission-speed-boost-time: 120 # in ticks
+manual-transmission-speed-boost-time: 120 # v tickech
 max-lift-distance: 3
 
 fuel-bar:
@@ -62,47 +60,47 @@ fuel-bar:
 gui-items:
   tune-up:
     material: PAPER
-    display: "<green>Tune-up"
+    display: "<green>Seřízení"
   alignment-combination:
     material: PAPER
-    display: "<green>Current Combination: <alignment>"
+    display: "<green>Aktuální kombinace: <alignment>"
   alignment-combination-option:
     material: PAPER
     display: "<green><alignment>"
   load-fuel:
     material: PAPER
-    display: "<green>Load Fuel"
+    display: "<green>Nalij palivo"
   create-suspension:
     material: EMERALD
-    display: "<green>Create Suspension"
+    display: "<green>Vytvoř zavěšení"
   empty:
     ENGINE:
       material: BARRIER
-      display: "<red>No Engine"
+      display: "<red>Chybí motor"
     BRAKES:
       material: BARRIER
-      display: "<red>No Brakes"
+      display: "<red>Chybí brzdy"
     SUSPENSION:
       material: BARRIER
-      display: "<red>No Suspension"
+      display: "<red>Chybí zavěšení"
     SPARKPLUG:
       material: BARRIER
-      display: "<red>No Sparkplug"
+      display: "<red>Chybí svíčka"
     TURBO:
       material: BARRIER
-      display: "<red>No Turbo"
+      display: "<red>Chybí turbo"
     WHEELS:
       material: BARRIER
-      display: "<red>No Wheels"
+      display: "<red>Chybí kola"
     FUEL_TANK:
       material: BARRIER
-      display: "<red>No Fuel Tank"
+      display: "<red>Chybí palivová nádrž"
     SPRING:
       material: BARRIER
-      display: "<red>No Spring"
+      display: "<red>Chybí pružina"
     SHOCK:
       material: BARRIER
-      display: "<red>No Strut/Shock"
+      display: "<red>Chybí tlumič/vzpěra"
 
 fuel-tick-timer: 100
 durability-tick-timer: 900
@@ -111,109 +109,109 @@ engine-set-time: 900
 
 minigame:
   set-engine:
-    inventory-title: "Connect Engine"
+    inventory-title: "Připoj motor"
     info-item:
       material: PAPER
-      display: "<blue>How to Solve"
+      display: "<blue>Jak vyřešit"
       lore:
-        - "<gray>Align the cables by color."
-        - "<gray>Use the bottom row as a guide."
-        - "<gray>Candle should be on top."
+        - "<gray>Zarovnej kabely podle barvy."
+        - "<gray>Spodní řada slouží jako vodítko."
+        - "<gray>Svíčka má být nahoře."
       customModel: 1
     rotate-column-1-item:
       material: PAPER
-      display: "<blue>Rotate Column 1 Down"
+      display: "<blue>Otoč sloupec 1 dolů"
       customModel: 1
     rotate-row-1-item:
       material: PAPER
-      display: "<blue>Rotate Row 1 Right"
+      display: "<blue>Otoč řádek 1 doprava"
       customModel: 1
     rotate-column-2-item:
       material: PAPER
-      display: "<blue>Rotate Column 2 Down"
+      display: "<blue>Otoč sloupec 2 dolů"
       customModel: 1
     rotate-column-3-item:
       material: PAPER
-      display: "<blue>Rotate Column 3 Down"
+      display: "<blue>Otoč sloupec 3 dolů"
       customModel: 1
     connect-item:
       material: PAPER
-      display: "<green>Connect!"
+      display: "<green>Připojit!"
       customModel: 1
   tuneup:
     up-item:
       material: PAPER
-      display: "<blue>Up"
+      display: "<blue>Nahoru"
       customModel: 1
     down-item:
       material: PAPER
-      display: "<blue>Down"
+      display: "<blue>Dolů"
       customModel: 1
     left-item:
       material: PAPER
-      display: "<blue>Left"
+      display: "<blue>Doleva"
       customModel: 1
     right-item:
       material: PAPER
-      display: "<blue>Right"
+      display: "<blue>Doprava"
       customModel: 1
     max-turns: 50
     max-repair-factor: 0.1
     min-drive-time: 300
 
 items:
-  impact-gun:
-    material: PAPER
-    display: "<green>Impact Gun"
-    max-charge: 50
-    charge-per-cycle: 5
   wrench:
     material: PAPER
-    display: "<green>Wrench"
+    display: "<green>Klíč"
+  fuel-can:
+    material: PAPER
+    display: "<green>Kanystr s palivem"
+    lore:
+      - "<gray>Doplní plnou nádrž!"
   jack-lift:
     material: PAPER
-    display: "<green>Jack Lift"
+    display: "<green>Zvedák"
   jack-stand:
     material: PAPER
-    display: "<green>Jack Stand"
+    display: "<green>Podpěra (koza)"
   bolt:
     material: PAPER
-    display: "<green>Bolt"
+    display: "<green>Šroub"
   ratchet:
     material: PAPER
-    display: "<green>Ratchet (<mode>)"
+    display: "<green>Ráčna (<mode>)"
   socket:
     material: PAPER
-    display: "<green>Socket"
+    display: "<green>Nástrčný klíč"
   sparkplug-socket:
     material: PAPER
-    display: "<green>Sparkplug Socket"
+    display: "<green>Nástrčka na svíčky"
   impact-socket:
     material: PAPER
-    display: "<green>Impact Socket"
+    display: "<green>Rázová nástrčka"
   air-gun:
     material: PAPER
-    display: "<green>Air Gun"
+    display: "<green>Vzduchová utahovačka"
   suspension:
     material: REDSTONE
-    display: "<green>Suspension System"
+    display: "<green>Systém zavěšení"
     lore:
-      - "<gray>Spring: <spring>"
-      - "<gray>Shock/Strut: <shock>"
+      - "<gray>Pružina: <spring>"
+      - "<gray>Tlumič/Vzpěra: <shock>"
   spring-compressor:
     material: CRAFTING_TABLE
-    display: "<green>Spring Compressor"
+    display: "<green>Stlačovač pružin"
 
 inventory-titles:
-  engine-removal-minigame: "Remove all bolts!"
-  engine-set-minigame: "Connect the cables!"
-  set-alignment-minigame: "Remember and match the items!"
-  first-suspension-replacement-minigame: "Remove all bolts, except center!"
-  second-suspension-replacement-minigame: "Now remove all three bolts!"
-  tuneup-minigame: "Reach 64 items!"
-  alignment-selection: "Select an alignment!"
-  engine-parts: "Engine Parts"
-  sparkplug-parts: "Sparkplug Parts"
-  tire-parts: "Tires and Brakes"
-  trunk-parts: "Trunk"
-  spring-compressor: "Spring Compressor"
+  engine-removal-minigame: "Odšroubuj všechny šrouby!"
+  engine-set-minigame: "Připoj kabely!"
+  set-alignment-minigame: "Zapamatuj si a spoj položky!"
+  first-suspension-replacement-minigame: "Odšroubuj všechny kromě středového!"
+  second-suspension-replacement-minigame: "Teď odšroubuj všechny tři šrouby!"
+  tuneup-minigame: "Dosáhni 64 položek!"
+  alignment-selection: "Vyber zarovnání!"
+  engine-parts: "Díly motoru"
+  sparkplug-parts: "Díly svíčky"
+  tire-parts: "Pneumatiky a brzdy"
+  trunk-parts: "Zavazadlový prostor"
+  spring-compressor: "Stlačovač pružin"

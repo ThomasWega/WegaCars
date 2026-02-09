@@ -5,12 +5,12 @@
     "type": "TURBO",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Turbo",
+      "display": "<aqua><bold>OEM turbo",
       "lore": [
-        "<gray>Acceleration: 2",
-        "<gray>Top Speed: 3",
-        "<gray>Weight: 2",
-        "<gray>Fuel Efficiency: -1"
+        "<gray>Zrychlení: 2",
+        "<gray>Maximální rychlost: 3",
+        "<gray>Hmotnost: 2",
+        "<gray>Spotřeba paliva: -1"
       ],
       "customModel": 1
     },
@@ -26,12 +26,12 @@
     "type": "TURBO",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Turbo",
+      "display": "<aqua><bold>Aftermarket turbo",
       "lore": [
-        "<gray>Acceleration: 3",
-        "<gray>Top Speed: 2",
-        "<gray>Weight: 2",
-        "<gray>Fuel Efficiency: -2"
+        "<gray>Zrychlení: 3",
+        "<gray>Maximální rychlost: 2",
+        "<gray>Hmotnost: 2",
+        "<gray>Spotřeba paliva: -2"
       ],
       "customModel": 1
     },
@@ -47,12 +47,12 @@
     "type": "TURBO",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>OEM Super",
+      "display": "<aqua><bold>OEM kompresor",
       "lore": [
-        "<gray>Acceleration: 2",
-        "<gray>Top Speed: 3",
-        "<gray>Weight: 2",
-        "<gray>Fuel Efficiency: -1"
+        "<gray>Zrychlení: 2",
+        "<gray>Maximální rychlost: 3",
+        "<gray>Hmotnost: 2",
+        "<gray>Spotřeba paliva: -1"
       ],
       "customModel": 1
     },
@@ -61,26 +61,5 @@
     "top-speed": 3,
     "weight": 2,
     "fuel-efficiency": -1
-  },
-  {
-    "id": "aftermarket_super",
-    "model": "small_box_wooden",
-    "type": "TURBO",
-    "item": {
-      "material": "REDSTONE",
-      "display": "<aqua><bold>Aftermarket Super",
-      "lore": [
-        "<gray>Acceleration: 3",
-        "<gray>Top Speed: 2",
-        "<gray>Weight: 2",
-        "<gray>Fuel Efficiency: -2"
-      ],
-      "customModel": 1
-    },
-    "turbo-type": "SUPER",
-    "acceleration": 3,
-    "top-speed": 2,
-    "weight": 2,
-    "fuel-efficiency": -2
   }
 ]

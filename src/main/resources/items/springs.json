@@ -5,10 +5,10 @@
     "type": "SPRING",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>High Spring Rate",
+      "display": "<aqua><bold>Vyšší tuhost pružiny",
       "lore": [
-        "<gray>Weight Tolerance: 7",
-        "<gray>Unsprung Weight: 5"
+        "<gray>Tolerance hmotnosti: 7",
+        "<gray>Nespružená hmotnost: 5"
       ],
       "customModel": 1
     },
@@ -21,10 +21,10 @@
     "type": "SPRING",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Medium Spring Rate",
+      "display": "<aqua><bold>Střední tuhost pružiny",
       "lore": [
-        "<gray>Weight Tolerance: 7",
-        "<gray>Unsprung Weight: 5"
+        "<gray>Tolerance hmotnosti: 5",
+        "<gray>Nespružená hmotnost: 3"
       ],
       "customModel": 1
     },
@@ -37,10 +37,10 @@
     "type": "SPRING",
     "item": {
       "material": "REDSTONE",
-      "display": "<aqua><bold>Low Spring Rate",
+      "display": "<aqua><bold>Nižší tuhost pružiny",
       "lore": [
-        "<gray>Weight Tolerance: 3",
-        "<gray>Unsprung Weight: 1"
+        "<gray>Tolerance hmotnosti: 3",
+        "<gray>Nespružená hmotnost: 1"
       ],
       "customModel": 1
     },

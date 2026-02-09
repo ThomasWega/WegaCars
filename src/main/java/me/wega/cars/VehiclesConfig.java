@@ -54,6 +54,7 @@ public class VehiclesConfig extends ConfigPropertyClass {
     public static final ConfigItemBuilderConfigProperty IMPACT_SOCKET = new ConfigItemBuilderConfigProperty("items.impact-socket");
     public static final ConfigItemBuilderConfigProperty AIR_GUN = new ConfigItemBuilderConfigProperty("items.air-gun");
     public static final ConfigItemBuilderConfigProperty WRENCH = new ConfigItemBuilderConfigProperty("items.wrench");
+    public static final ConfigItemBuilderConfigProperty FUEL_CAN = new ConfigItemBuilderConfigProperty("items.fuel-can");
 
     public static final ConfigItemBuilderConfigProperty BOLT_ITEM = new ConfigItemBuilderConfigProperty("items.bolt");
 
